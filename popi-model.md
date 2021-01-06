@@ -21,23 +21,61 @@ By downloading this data, you agreeing to follow these guidelines. When using an
     
     **In  _Proceeding of the XVth ICCR Conference_, Toronto, Canada. 2007**.  [pdf](https://github.com/open-vv/popi-model/blob/master/Vandemeulebroucke2007.pdf "pdf")
     
-| Type of Data | Links || 
-| ----- | ---- | ---- |
-| Images | [Original Images (Dicom)](http://tux.creatis.insa-lyon.fr/~srit/POPI/Images/Dicom) | [Preprocessed Images (MetaImage)](http://tux.creatis.insa-lyon.fr/~srit/POPI/Images/MetaImage) |
-|  **Please note that all of the provided data below is referenced with respect to the dimensions of the preprocessed image!** |||
-| Vectorfields | [Non-Parametric Method](http://tux.creatis.insa-lyon.fr/~srit/POPI/VectorFields/Non-Parametric) | [Parametric Method](http://tux.creatis.insa-lyon.fr/~srit/POPI/VectorFields/Parametric) |
-| Landmarks | [Landmarks](http://tux.creatis.insa-lyon.fr/~srit/POPI/Landmarks) | TRE results are shown below |
-| Additional Data | [Masks](http://tux.creatis.insa-lyon.fr/~srit/POPI/Masks) ||
+<table>
+<thead>
+<tr>
+<th>Type of Data</th>
+<th colspan="2">Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Images</td>
+<td><a href="http://tux.creatis.insa-lyon.fr/~srit/POPI/Images/Dicom">Original Images (Dicom)</a></td>
+<td><a href="http://tux.creatis.insa-lyon.fr/~srit/POPI/Images/MetaImage">Preprocessed Images (MetaImage)</a></td>
+</tr>
+<tr>
+<td colspan="3"><b>Please note that all of the provided data below is referenced with respect to the dimensions of the preprocessed image!</b></td>
+</tr>
+<tr>
+<td>Vectorfields</td>
+<td><a href="http://tux.creatis.insa-lyon.fr/~srit/POPI/VectorFields/Non-Parametric">Non-Parametric Method</a></td>
+<td><a href="http://tux.creatis.insa-lyon.fr/~srit/POPI/VectorFields/Parametric">Parametric Method</a></td>
+</tr>
+<tr>
+<td>Landmarks</td>
+<td><a href="http://tux.creatis.insa-lyon.fr/~srit/POPI/Landmarks">Landmarks</a></td>
+<td>TRE results are shown below</td>
+</tr>
+<tr>
+<td>Additional Data</td>
+<td colspan="2"><a href="http://tux.creatis.insa-lyon.fr/~srit/POPI/Masks">Masks</a></td>
+</tr>
+</tbody>
+</table>
+
 
 ## Data Description
 
-| _The freely available  **POPI-model**  could be usefull when working on motion compensated reconstruction (CT, TEP),4D dosimetry, 4D deformable registration, lung deformation estimation, monte-carlo simulations... This validated data set can serve as a reference so please feel free to incorporate it into your work._ |||
-| - | - | - |
-| ![Axe2S.gif](Axe2S.gif "Axe2S.gif") | ![Axe1S.gif](Axe1S.gif "Axe1S.gif") | ![Axe0S.gif](Axe0S.gif "Axe0S.gif") |
-| Axial view | Coronal view | Sagital view |
-
-
-_The freely available  **POPI-model**  could be usefull when working on motion compensated reconstruction (CT, TEP),4D dosimetry, 4D deformable registration, lung deformation estimation, monte-carlo simulations... This validated data set can serve as a reference so please feel free to incorporate it into your work._
+<table>
+<thead>
+<tr>
+<th colspan="3"><i>The freely available  <b>POPI-model</b>  could be usefull when working on motion compensated reconstruction (CT, TEP),4D dosimetry, 4D deformable registration, lung deformation estimation, monte-carlo simulations... This validated data set can serve as a reference so please feel free to incorporate it into your work.</i></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="Axe2S.gif" alt="Axe2S.gif"></td>
+<td><img src="Axe1S.gif" alt="Axe1S.gif"></td>
+<td><img src="Axe0S.gif" alt="Axe0S.gif"></td>
+</tr>
+<tr>
+<td>Axial view</td>
+<td>Coronal view</td>
+<td>Sagital view</td>
+</tr>
+</tbody>
+</table>
 
 You will find on this site the  [original dicom images](http://tux.creatis.insa-lyon.fr/~srit/POPI/Images/Dicom)  of a 4D CT series, made up of ten 3D volumes representing ten different phases of one breathing cycle. In addition we provide a modified,  [preprocessed version](http://tux.creatis.insa-lyon.fr/~srit/POPI/Images/MetaImage)  of this 4D image that was used by us for further processing (images were cropped to their bounding box and background was removed). Between two phases of the 4D CT series we estimated the breathing motion, resulting in  [vector fields](http://tux.creatis.insa-lyon.fr/~srit/POPI/VectorFields/Non-Parametric)  that maps voxels from one phase to homologous voxels of the other phase. These deformation fields were obtained through two different approaches (parametric and non-parametric) and freely downloadable.
 
@@ -67,11 +105,25 @@ Motion estimation was performed considering a Lagrangian description of space. D
 
 #### Non-Parametric Method
 
-
-| _The result of the deformable registration between the reference 10-P.mhd (inspriration) and 60-P.mhd (expiration) is shown below. The vectors were projected on the three image planes which are only partially visualized._ |||
-| - | - | - |
-| ![VFaxialS.png](VFaxialS.png "VFaxialS.png") | ![VFCoronalS.png](VFCoronalS.png "VFCoronalS.png") | ![VFsagitalS.png](VFsagitalS.png "VFsagitalS.png") |
-| Axial view | Coronal view | Sagital view |
+<table>
+<thead>
+<tr>
+<th colspan="3"><i>The result of the deformable registration between the reference 10-P.mhd (inspriration) and 60-P.mhd (expiration) is shown below. The vectors were projected on the three image planes which are only partially visualized</i></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="VFaxialS.png" alt="VFaxialS.png"></td>
+<td><img src="VFCoronalS.png" alt="VFCoronalS.png"></td>
+<td><img src="VFsagitalS.png" alt="VFsagitalS.png"></td>
+</tr>
+<tr>
+<td>Axial view</td>
+<td>Coronal view</td>
+<td>Sagital view</td>
+</tr>
+</tbody>
+</table>
 
 An implementation of the Demons algorithm was used to obtain vector fields that deformably register the reference phase to all other volumes. Registration was performed between the preprocessed images (eg. : 10-P.mhd and 40-P.mhd), using a multi-resolution scheme with final resolution of 2mm x 2mm x 2mm.
 
@@ -81,10 +133,25 @@ The vector fields obtained through deformable registration are provided at a 2mm
 
 #### Parametric Method
 
-| _The result of the free-form deformation between the reference 10-P.mhd (inspriration) and 60-P.mhd (expiration) is shown below. The vectors were projected on the three image planes which are only partially visualized._ |||
-| - | - | - |
-| ![VFAxialS2.png](VFAxialS2.png "VFAxialS2.png") | ![VFCoronalS2.png](VFCoronalS2.png "VFCoronalS2.png") | ![VFSagitals2.png](VFSagitals2.png "VFSagitals2.png") |
-| Axial view | Coronal view | Sagital view |
+<table>
+<thead>
+<tr>
+<th colspan="3"><i>The result of the free-form deformation between the reference 10-P.mhd (inspriration) and 60-P.mhd (expiration) is shown below. The vectors were projected on the three image planes which are only partially visualized.</i></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="VFaxialS2.png" alt="VFaxialS2.png"></td>
+<td><img src="VFCoronalS2.png" alt="VFCoronalS2.png"></td>
+<td><img src="VFsagitalS2.png" alt="VFsagitalS2.png"></td>
+</tr>
+<tr>
+<td>Axial view</td>
+<td>Coronal view</td>
+<td>Sagital view</td>
+</tr>
+</tbody>
+</table>
 
 The parametric registration is a particular implementation of Rueckert's free-form deformation [Delhay 2005] implemented using a multi-scale / multiresolution piramid. The parametric representation was obtained using cubic B-spline base functions. From the final solution vector fields at discrete grid positions were extracted with a resolution of 2mm x 2mm x 2mm. They can be downloaded separately (eg: VF14.vf ~ 66MB) or in a single tar-file (4DVF.tar ~ 600MB),  [here](http://tux.creatis.insa-lyon.fr/~srit/POPI/VectorFields/Parametric).
 
@@ -92,11 +159,25 @@ The parametric registration is a particular implementation of Rueckert's free-fo
 
 The accuracy of the vector fields was assessed by the use of soft or retrospective landmarks. Medical experts identified homologous points in all 3D volumes. For illustration purpose, the distribution of the landmarks is shown, in the next figures, projected on the three body planes. Note that some points appear to be located outside of the body, because of the choice of slice onto which all points were projected. 41 points in each of the 3D volumes are provided. The last point corresponds to an image artifact and was provided as an illustration. It's TRE is however not taken into account in the results presented below. The landmarks can be downloaded for each of the volumes separately (eg: 10-Landmarks.pts) or as a 4D set (4DLandmarks.tar),  [here](http://tux.creatis.insa-lyon.fr/~srit/POPI/Landmarks). Points coordinates are expressed according to the first voxel reference frame (not according to the center of the image).
 
-_Landmarks were identified by medical experts. The distance between the position were a physician identified a landmark and were the vector fields located the landmark, the TRE, provides an evaluation of the results of the motion estimation. To visualize their distribution in the 3D volumes their projections on the three body planes are shown below._
-| _Landmarks were identified by medical experts. The distance between the position were a physician identified a landmark and were the vector fields located the landmark, the TRE, provides an evaluation of the results of the motion estimation. To visualize their distribution in the 3D volumes their projections on the three body planes are shown below._ |||
-| - | - | - |
-| ![coronallandmarks.png](coronallandmarks.png "coronallandmarks.png") | ![axiallandmarks.png](axiallandmarks.png "axiallandmarks.png") | ![sagitallandmarks.png](sagitallandmarks.png "sagitallandmarks.png") |
-| Coronal view | Axial view |Sagital view |
+<table>
+<thead>
+<tr>
+<th colspan="3"><i>Landmarks were identified by medical experts. The distance between the position were a physician identified a landmark and were the vector fields located the landmark, the TRE, provides an evaluation of the results of the motion estimation. To visualize their distribution in the 3D volumes their projections on the three body planes are shown below.</i></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="coronallandmarks.png" alt="coronallandmarks.png"></td>
+<td><img src="axiallandmarks.png" alt="axiallandmarks.png"></td>
+<td><img src="sagitallandmarks.png" alt="sagitallandmarks.png"></td>
+</tr>
+<tr>
+<td>Axial view</td>
+<td>Coronal view</td>
+<td>Sagital view</td>
+</tr>
+</tbody>
+</table>
 
 By calculating the distance between these points and the corresponding deformed points from the reference phase, a Target Registration Error (TRE) can be calculated.
 
