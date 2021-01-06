@@ -23,7 +23,7 @@ This data is fully described in
     
     _**Spatiotemporal motion estimation for respiratory-correlated imaging of the lungs.**_
     
-    **In  _Med Phys_, 2011, 38(1), 166-178.**  [pdf](https://www.creatis.insa-lyon.fr/rio/popi-model?action=AttachFile&do=view&target=Vandemeulebroucke2011.pdf "pdf")
+    **In  _Med Phys_, 2011, 38(1), 166-178.**  [pdf](https://github.com/open-vv/popi-model/blob/master/Vandemeulebroucke2011.pdf "pdf")
     
 
 The inhale-exhale image pairs were also used in
@@ -32,10 +32,10 @@ The inhale-exhale image pairs were also used in
     
     _**Automated segmentation of a motion mask to preserve sliding motion in deformable registration of thoracic CT.**_
     
-    **In  _Med Phys_, 2012, 39(2), 1006-1015.**  [pdf](https://www.creatis.insa-lyon.fr/rio/popi-model?action=AttachFile&do=view&target=Vandemeulebroucke2012.pdf "pdf")
+    **In  _Med Phys_, 2012, 39(2), 1006-1015.**  [pdf](https://github.com/open-vv/popi-model/blob/master/Vandemeulebroucke2012.pdf "pdf")
     
 
-[Proceed to Download Page](https://www.creatis.insa-lyon.fr/rio/dir_validation_data)
+[Proceed to Download Page](https://github.com/open-vv/popi-model/blob/master/dir_validation_data.md)
 
 ### The POPI-model, a Point-validated Pixel-based Breathing Thorax Model
 
@@ -51,10 +51,10 @@ This data set was originally described in
     
     _**The POPI-model, a point-validated pixel-based breathing thorax model.**_
     
-    **In  _Proceeding of the XVth ICCR Conference_, Toronto, Canada. 2007**.  [pdf](https://www.creatis.insa-lyon.fr/rio/popi-model?action=AttachFile&do=view&target=Vandemeulebroucke2007.pdf "pdf")
+    **In  _Proceeding of the XVth ICCR Conference_, Toronto, Canada. 2007**.  [pdf](https://github.com/open-vv/popi-model/blob/master/Vandemeulebroucke2007.pdf "pdf")
     
 
-[Proceed to Download Page](https://www.creatis.insa-lyon.fr/rio/popi-model_original_page)
+[Proceed to Download Page](https://github.com/open-vv/popi-model/blob/master/popi-model.md)
 
 ## Other Useful Links
 

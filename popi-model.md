@@ -19,7 +19,7 @@ By downloading this data, you agreeing to follow these guidelines. When using an
     
     _**The POPI-model, a point-validated pixel-based breathing thorax model.**_
     
-    **In  _XVth International Conference on the Use of Computers in Radiation Therapy (ICCR)_, Toronto, Canada. 2007.**  [pdf](https://www.creatis.insa-lyon.fr/rio/popi-model_original_page?action=AttachFile&do=upload_form&ticket=005ff5d046.27a874b69b40e0fb4ddd2e8739d41cf6eb1c759a&target=ICCR2007.pdf "Upload new attachment "ICCR2007.pdf"")
+    **In  _Proceeding of the XVth ICCR Conference_, Toronto, Canada. 2007**.  [pdf](https://github.com/open-vv/popi-model/blob/master/Vandemeulebroucke2007.pdf "pdf")
     
 | Type of Data | Links || 
 | ----- | ---- | ---- |
