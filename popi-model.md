@@ -141,9 +141,9 @@ The vector fields obtained through deformable registration are provided at a 2mm
 </thead>
 <tbody>
 <tr>
-<td><img src="VFaxialS2.png" alt="VFaxialS2.png"></td>
+<td><img src="VFAxialS2.png" alt="VFAxialS2.png"></td>
 <td><img src="VFCoronalS2.png" alt="VFCoronalS2.png"></td>
-<td><img src="VFsagitalS2.png" alt="VFsagitalS2.png"></td>
+<td><img src="VFSagitals2.png" alt="VFSagitals2.png"></td>
 </tr>
 <tr>
 <td>Axial view</td>
