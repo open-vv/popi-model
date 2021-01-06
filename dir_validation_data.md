@@ -1,4 +1,4 @@
-# Validation Data for Deformable Image Registration of the Lungs
+# Validation Data for Deformable Image Registration
 
 ## Motivation
 
