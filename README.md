@@ -43,7 +43,7 @@ This data set includes:
 
 -   One 4D CT data set
 -   40 landmarks in all frames.
--   The deformation vector fields obtained using two registration methods.
+-   The deformation vector fields (DVF) were obtained using two registration methods (expressed in voxel units, so you need to x2 to get in mm).
 
 This data set was originally described in
 
